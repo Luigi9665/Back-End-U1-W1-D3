@@ -108,7 +108,7 @@ class Program()
 
         Console.WriteLine("La somma è: " + somma);
 
-        float mediaNumeri = somma / numberInput.Length;
+        float mediaNumeri = (float)somma / numberInput.Length;
 
         Console.WriteLine("La media è: " + mediaNumeri);
 
